@@ -97,7 +97,214 @@
         "groupType": "default"
     },
     {
-        "id": "08b52946294aee51",
+        "id": "3892fbae43714834",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c125deb2848e4354",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "127.0.0.1",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "a98ba2c0141a655a",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "127.0.0.1",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "a4b049f6c27715be",
+        "type": "mqtt in",
+        "z": "75aeb316078a8b5d",
+        "name": "",
+        "topic": "prueba/gustavo/insano/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "3892fbae43714834",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 610,
+        "y": 180,
+        "wires": [
+            [
+                "b391f9582504e47a"
+            ]
+        ]
+    },
+    {
+        "id": "b391f9582504e47a",
+        "type": "debug",
+        "z": "75aeb316078a8b5d",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "febd0a27459dda47",
+        "type": "mqtt in",
+        "z": "75aeb316078a8b5d",
+        "name": "",
+        "topic": "prueba/gustavo/insano/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "c125deb2848e4354",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 630,
+        "y": 340,
+        "wires": [
+            [
+                "8cdca371840f859c"
+            ]
+        ]
+    },
+    {
+        "id": "8cdca371840f859c",
+        "type": "debug",
+        "z": "75aeb316078a8b5d",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "81e1ef39442e6d68",
+        "type": "mqtt in",
+        "z": "75aeb316078a8b5d",
+        "name": "",
+        "topic": "prueba/gustavo/insano/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "c125deb2848e4354",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 610,
+        "y": 460,
+        "wires": [
+            [
+                "f086d36e28826252"
+            ]
+        ]
+    },
+    {
+        "id": "f086d36e28826252",
+        "type": "debug",
+        "z": "75aeb316078a8b5d",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "437c126210515c2b",
         "type": "inject",
         "z": "75aeb316078a8b5d",
         "name": "",
@@ -110,51 +317,124 @@
                 "vt": "str"
             }
         ],
-        "repeat": "5",
+        "repeat": "",
         "crontab": "",
-        "once": true,
+        "once": false,
         "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 130,
-        "y": 300,
+        "topic": "prueba/gustavo/insano/Gustavo",
+        "payload": "{\"temp\":23,\"hum\":10,\"lat\":1,\"long\":20,\"nombre\":\"Node Hola\"}",
+        "payloadType": "json",
+        "x": 630,
+        "y": 660,
         "wires": [
             [
-                "b2c18c2659de8e7d"
+                "8967145c61e9f657"
             ]
         ]
     },
     {
-        "id": "b2c18c2659de8e7d",
-        "type": "ui-led",
+        "id": "8967145c61e9f657",
+        "type": "mqtt out",
         "z": "75aeb316078a8b5d",
         "name": "",
-        "group": "2bc14a03d9e6d99a",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "label": "",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "states": [
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a98ba2c0141a655a",
+        "x": 850,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "6c4b95d483ce9999",
+        "type": "inject",
+        "z": "75aeb316078a8b5d",
+        "name": "",
+        "props": [
             {
-                "color": "#FF0000",
-                "value": false,
-                "valueType": "bool"
+                "p": "payload"
             },
             {
-                "color": "#00FF00",
-                "value": true,
-                "valueType": "bool"
+                "p": "topic",
+                "vt": "str"
             }
         ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showBorder": true,
-        "showGlow": true,
-        "x": 290,
-        "y": 300,
-        "wires": []
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "prueba/gustavo/insano/1",
+        "payload": "{\"temp\":23,\"hum\":10,\"lat\":1,\"long\":20,\"nombre\":\"Inject 1\"}",
+        "payloadType": "json",
+        "x": 610,
+        "y": 720,
+        "wires": [
+            [
+                "8967145c61e9f657"
+            ]
+        ]
+    },
+    {
+        "id": "f6f694366003b047",
+        "type": "inject",
+        "z": "75aeb316078a8b5d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "prueba/gustavo/insano/2",
+        "payload": "{\"temp\":23,\"hum\":10,\"lat\":1,\"long\":20,\"nombre\":\"Inject 2\"}",
+        "payloadType": "json",
+        "x": 610,
+        "y": 780,
+        "wires": [
+            [
+                "8967145c61e9f657"
+            ]
+        ]
+    },
+    {
+        "id": "4235c04660094094",
+        "type": "inject",
+        "z": "75aeb316078a8b5d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "prueba/gustavo/insano/3",
+        "payload": "{\"temp\":23,\"hum\":10,\"lat\":1,\"long\":20,\"nombre\":\"Inject 3\"}",
+        "payloadType": "json",
+        "x": 610,
+        "y": 840,
+        "wires": [
+            [
+                "8967145c61e9f657"
+            ]
+        ]
     }
 ]
