@@ -16,6 +16,154 @@
         "env": []
     },
     {
+        "id": "bd9a713db43b09de",
+        "type": "tab",
+        "label": "Flujo 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "76ae491bff9574fb",
+        "type": "group",
+        "z": "bd9a713db43b09de",
+        "g": "3caf016ac8271965",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c2152ba291457cce",
+            "522b8eb3157946d5"
+        ],
+        "x": 954,
+        "y": 439,
+        "w": 372,
+        "h": 82
+    },
+    {
+        "id": "0b74d38880cb8ee9",
+        "type": "group",
+        "z": "bd9a713db43b09de",
+        "g": "75698b19d8659e4f",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "4955dce6c18f9e5b",
+            "d339c283f2015798",
+            "4f711e5f4a42e310",
+            "7a35d5762b7a4d7d"
+        ],
+        "x": 254.99999237060547,
+        "y": 883.0000228881836,
+        "w": 812,
+        "h": 82
+    },
+    {
+        "id": "75698b19d8659e4f",
+        "type": "group",
+        "z": "bd9a713db43b09de",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7dd46668d21aace0",
+            "0b74d38880cb8ee9"
+        ],
+        "x": 228.99999237060547,
+        "y": 799,
+        "w": 864,
+        "h": 192.0000228881836
+    },
+    {
+        "id": "b8330defe66f6aa3",
+        "type": "group",
+        "z": "bd9a713db43b09de",
+        "g": "aed83ebf4151ec1a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "23799b174a01d07a",
+            "6a29e86704c9e165",
+            "23d70b9dbd57fb85",
+            "b806c285e6472592",
+            "0ea401ce5d47479a"
+        ],
+        "x": 255.0000228881836,
+        "y": 649.0000953674316,
+        "w": 1012,
+        "h": 82
+    },
+    {
+        "id": "aed83ebf4151ec1a",
+        "type": "group",
+        "z": "bd9a713db43b09de",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "31073ecc377843f9",
+            "b8330defe66f6aa3"
+        ],
+        "x": 229.0000228881836,
+        "y": 579,
+        "w": 1064,
+        "h": 178.00009536743164
+    },
+    {
+        "id": "3caf016ac8271965",
+        "type": "group",
+        "z": "bd9a713db43b09de",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "0f9e065b2a1ee568",
+            "76ae491bff9574fb"
+        ],
+        "x": 928,
+        "y": 359,
+        "w": 424,
+        "h": 188
+    },
+    {
         "id": "86214e87008aec36",
         "type": "ui-base",
         "name": "My Dashboard",
@@ -515,126 +663,367 @@
         ]
     },
     {
-        "id": "57302727dd5da47d",
-        "type": "http in",
-        "z": "2ab04c2dd50ec8c8",
+        "id": "4955dce6c18f9e5b",
+        "type": "inject",
+        "z": "bd9a713db43b09de",
+        "g": "0b74d38880cb8ee9",
         "name": "",
-        "url": "/sensores/:temp/:hum",
-        "method": "get",
-        "upload": false,
-        "skipBodyParsing": false,
-        "swaggerDoc": "",
-        "x": 670,
-        "y": 440,
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 370.99999237060547,
+        "y": 924.0000228881836,
         "wires": [
             [
-                "57d384d9b5c26943",
-                "0d8d9ef6d7eb18f2",
-                "3f0e4124ec76f0e0"
+                "d339c283f2015798"
             ]
         ]
     },
     {
-        "id": "a1804b1d153cf521",
-        "type": "http response",
-        "z": "2ab04c2dd50ec8c8",
+        "id": "d339c283f2015798",
+        "type": "http request",
+        "z": "bd9a713db43b09de",
+        "g": "0b74d38880cb8ee9",
         "name": "",
-        "statusCode": "200",
-        "headers": {},
-        "x": 1140,
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://api.weatherstack.com/current?access_key=03c59a03dbf13437c4eca177515fdaab&query=Machala",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 570.9999923706055,
+        "y": 924.0000228881836,
+        "wires": [
+            [
+                "4f711e5f4a42e310"
+            ]
+        ]
+    },
+    {
+        "id": "4f711e5f4a42e310",
+        "type": "json",
+        "z": "bd9a713db43b09de",
+        "g": "0b74d38880cb8ee9",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 770.9999923706055,
+        "y": 924.0000228881836,
+        "wires": [
+            [
+                "7a35d5762b7a4d7d"
+            ]
+        ]
+    },
+    {
+        "id": "7a35d5762b7a4d7d",
+        "type": "debug",
+        "z": "bd9a713db43b09de",
+        "g": "0b74d38880cb8ee9",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960.9999923706055,
+        "y": 924.0000228881836,
+        "wires": []
+    },
+    {
+        "id": "b50d6de745ad43c5",
+        "type": "openweathermap",
+        "z": "bd9a713db43b09de",
+        "name": "Clima",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "quito",
+        "country": "Ecuador",
+        "language": "es",
+        "x": 590,
+        "y": 1300,
+        "wires": [
+            [
+                "268e2db5ca8ffb4b",
+                "6488d8b5bc56d15e",
+                "95330776d244fca6",
+                "cdaffa512e572056"
+            ]
+        ]
+    },
+    {
+        "id": "466c876cbc069908",
+        "type": "inject",
+        "z": "bd9a713db43b09de",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 1300,
+        "wires": [
+            [
+                "b50d6de745ad43c5"
+            ]
+        ]
+    },
+    {
+        "id": "c2152ba291457cce",
+        "type": "openweathermap in",
+        "z": "bd9a713db43b09de",
+        "g": "76ae491bff9574fb",
+        "name": "Clima",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Machala",
+        "country": "Ecuador",
+        "language": "es",
+        "x": 1030,
+        "y": 480,
+        "wires": [
+            [
+                "522b8eb3157946d5"
+            ]
+        ]
+    },
+    {
+        "id": "522b8eb3157946d5",
+        "type": "debug",
+        "z": "bd9a713db43b09de",
+        "g": "76ae491bff9574fb",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1220,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "23799b174a01d07a",
+        "type": "inject",
+        "z": "bd9a713db43b09de",
+        "g": "b8330defe66f6aa3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 371.0000228881836,
+        "y": 690.0000953674316,
+        "wires": [
+            [
+                "6a29e86704c9e165"
+            ]
+        ]
+    },
+    {
+        "id": "6a29e86704c9e165",
+        "type": "change",
+        "z": "bd9a713db43b09de",
+        "g": "b8330defe66f6aa3",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "id",
+                "pt": "msg",
+                "to": "3654533",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "APPID",
+                "pt": "msg",
+                "to": "a75e4a8cd7e7e35459f89153da9e1940",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 581.0000228881836,
+        "y": 690.0000953674316,
+        "wires": [
+            [
+                "0ea401ce5d47479a"
+            ]
+        ]
+    },
+    {
+        "id": "b806c285e6472592",
+        "type": "debug",
+        "z": "bd9a713db43b09de",
+        "g": "b8330defe66f6aa3",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1161.0000228881836,
+        "y": 690.0000953674316,
+        "wires": []
+    },
+    {
+        "id": "0ea401ce5d47479a",
+        "type": "http request",
+        "z": "bd9a713db43b09de",
+        "g": "b8330defe66f6aa3",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://api.openweathermap.org/data/2.5/forecast?id={{{id}}}&APPID={{{APPID}}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 791.0000228881836,
+        "y": 690.0000953674316,
+        "wires": [
+            [
+                "23d70b9dbd57fb85"
+            ]
+        ]
+    },
+    {
+        "id": "23d70b9dbd57fb85",
+        "type": "json",
+        "z": "bd9a713db43b09de",
+        "g": "b8330defe66f6aa3",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 971.0000228881836,
+        "y": 690.0000953674316,
+        "wires": [
+            [
+                "b806c285e6472592"
+            ]
+        ]
+    },
+    {
+        "id": "7640ba9a0de2c4d5",
+        "type": "comment",
+        "z": "bd9a713db43b09de",
+        "name": "OpenWeather - KEY",
+        "info": "",
+        "x": 430,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "0f9e065b2a1ee568",
+        "type": "comment",
+        "z": "bd9a713db43b09de",
+        "g": "3caf016ac8271965",
+        "name": "OpenWeather - in",
+        "info": "",
+        "x": 1040,
         "y": 400,
         "wires": []
     },
     {
-        "id": "57d384d9b5c26943",
-        "type": "template",
-        "z": "2ab04c2dd50ec8c8",
-        "name": "",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "html",
-        "syntax": "plain",
-        "template": "<!DOCTYPE html>\n<html lang=\"es\">\n\n<head>\n    <meta charset=\"UTF-8\" />\n    <title>Datos de Sensores</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            background: #f0f8ff;\n            color: #333;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            margin: 0;\n        }\n\n        .container {\n            background: #ffffff;\n            padding: 2rem 3rem;\n            border-radius: 12px;\n            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);\n            text-align: center;\n            width: 300px;\n        }\n\n        h1 {\n            margin-bottom: 1.5rem;\n            color: #007acc;\n        }\n\n        .sensor-data {\n            font-size: 1.2rem;\n            margin: 0.8rem 0;\n            padding: 0.5rem;\n            border-radius: 8px;\n            background: #e7f3ff;\n            border: 1px solid #a1c4fd;\n        }\n\n        .temp {\n            color: #e94e77;\n            font-weight: bold;\n        }\n\n        .hum {\n            color: #3498db;\n            font-weight: bold;\n        }\n    </style>\n</head>\n\n<body>\n    <div class=\"container\">\n        <h1>Datos de Sensores</h1>\n        <div class=\"sensor-data\">Temperatura: <span class=\"temp\">{{req.params.temp}}°C</span></div>\n        <div class=\"sensor-data\">Humedad: <span class=\"hum\">{{req.params.hum}}%</span></div>\n    </div>\n</body>\n\n</html>",
-        "output": "str",
-        "x": 920,
-        "y": 400,
-        "wires": [
-            [
-                "a1804b1d153cf521"
-            ]
-        ]
+        "id": "31073ecc377843f9",
+        "type": "comment",
+        "z": "bd9a713db43b09de",
+        "g": "aed83ebf4151ec1a",
+        "name": "OpenWeather - URL",
+        "info": "",
+        "x": 350,
+        "y": 620,
+        "wires": []
     },
     {
-        "id": "0d8d9ef6d7eb18f2",
-        "type": "change",
-        "z": "2ab04c2dd50ec8c8",
-        "name": "Temperatura",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "req.params.temp",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 930,
-        "y": 440,
-        "wires": [
-            [
-                "4ffeda4cbc63fdf5"
-            ]
-        ]
+        "id": "7dd46668d21aace0",
+        "type": "comment",
+        "z": "bd9a713db43b09de",
+        "g": "75698b19d8659e4f",
+        "name": "WeatherStack",
+        "info": "",
+        "x": 330,
+        "y": 840,
+        "wires": []
     },
     {
-        "id": "3f0e4124ec76f0e0",
-        "type": "change",
-        "z": "2ab04c2dd50ec8c8",
-        "name": "Humedad",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "req.params.hum",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 920,
-        "y": 480,
-        "wires": [
-            [
-                "020f4a4181b771a2"
-            ]
-        ]
-    },
-    {
-        "id": "4ffeda4cbc63fdf5",
+        "id": "2ea028eba71dcd70",
         "type": "ui-gauge",
-        "z": "2ab04c2dd50ec8c8",
-        "name": "Temperatura",
+        "z": "bd9a713db43b09de",
+        "name": "",
         "group": "2bc14a03d9e6d99a",
-        "order": 2,
-        "value": "$round(payload, 1)\t",
-        "valueType": "jsonata",
+        "order": 4,
+        "value": "payload",
+        "valueType": "msg",
         "width": 3,
         "height": 3,
         "gtype": "gauge-half",
         "gstyle": "needle",
-        "title": "Temperatura",
+        "title": "Humedad",
         "alwaysShowTitle": false,
         "floatingTitlePosition": "top-left",
-        "units": " °C",
+        "units": "%",
         "icon": "",
         "prefix": "",
         "suffix": "",
@@ -666,29 +1055,29 @@
         "styleRounded": true,
         "styleGlow": false,
         "className": "",
-        "x": 1170,
-        "y": 440,
+        "x": 1060,
+        "y": 1240,
         "wires": [
             []
         ]
     },
     {
-        "id": "020f4a4181b771a2",
+        "id": "9b1742767824984c",
         "type": "ui-gauge",
-        "z": "2ab04c2dd50ec8c8",
-        "name": "Humedad",
+        "z": "bd9a713db43b09de",
+        "name": "",
         "group": "2bc14a03d9e6d99a",
-        "order": 1,
+        "order": 3,
         "value": "payload",
         "valueType": "msg",
         "width": 3,
         "height": 3,
         "gtype": "gauge-half",
         "gstyle": "needle",
-        "title": "Humedad",
+        "title": "Temperatura",
         "alwaysShowTitle": false,
         "floatingTitlePosition": "top-left",
-        "units": " %",
+        "units": "°C",
         "icon": "",
         "prefix": "",
         "suffix": "",
@@ -700,30 +1089,232 @@
                 "textType": "label"
             },
             {
-                "from": "10",
+                "from": "30",
                 "color": "#ffc800",
                 "text": "",
                 "textType": "label"
             },
             {
-                "from": "35",
+                "from": "70",
                 "color": "#ea5353",
                 "text": "",
                 "textType": "label"
             }
         ],
         "min": 0,
-        "max": "50",
+        "max": "100",
         "sizeThickness": 16,
         "sizeGap": 4,
         "sizeKeyThickness": 8,
         "styleRounded": true,
         "styleGlow": false,
         "className": "",
-        "x": 1160,
-        "y": 480,
+        "x": 1070,
+        "y": 1300,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "268e2db5ca8ffb4b",
+        "type": "change",
+        "z": "bd9a713db43b09de",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.humidity",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 1240,
+        "wires": [
+            [
+                "2ea028eba71dcd70"
+            ]
+        ]
+    },
+    {
+        "id": "6488d8b5bc56d15e",
+        "type": "change",
+        "z": "bd9a713db43b09de",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.temp_maxc",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 1300,
+        "wires": [
+            [
+                "9b1742767824984c"
+            ]
+        ]
+    },
+    {
+        "id": "95330776d244fca6",
+        "type": "change",
+        "z": "bd9a713db43b09de",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.winddirection",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 1360,
+        "wires": [
+            [
+                "a8d9af41a2832293"
+            ]
+        ]
+    },
+    {
+        "id": "9b2fdc43f9ae9536",
+        "type": "ui-form",
+        "z": "bd9a713db43b09de",
+        "name": "",
+        "group": "2bc14a03d9e6d99a",
+        "label": "",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "City",
+                "key": "City",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Country",
+                "key": "Contry",
+                "type": "text",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "City": "",
+            "Contry": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "clear",
+        "resetOnSubmit": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": true,
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [],
+        "x": 390,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8d9af41a2832293",
+        "type": "ui-text",
+        "z": "bd9a713db43b09de",
+        "group": "2bc14a03d9e6d99a",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Clima:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1050,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "cdaffa512e572056",
+        "type": "change",
+        "z": "bd9a713db43b09de",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.sunset",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 1420,
+        "wires": [
+            [
+                "3120a1123692d3e2"
+            ]
+        ]
+    },
+    {
+        "id": "3120a1123692d3e2",
+        "type": "ui-text",
+        "z": "bd9a713db43b09de",
+        "group": "2bc14a03d9e6d99a",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "Dia",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1050,
+        "y": 1420,
+        "wires": []
     }
 ]
