@@ -1,253 +1,19 @@
 [
     {
-        "id": "75aeb316078a8b5d",
-        "type": "tab",
-        "label": "Flujo 1",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "2ab04c2dd50ec8c8",
-        "type": "tab",
-        "label": "Flow 1",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "bd9a713db43b09de",
-        "type": "tab",
-        "label": "Flujo 2",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "5832111adb5d864a",
-        "type": "tab",
-        "label": "Flujo 3",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "26c946c84c606107",
         "type": "tab",
-        "label": "Flujo 5",
+        "label": "CLIENTE",
         "disabled": false,
         "info": "",
         "env": []
     },
     {
-        "id": "75698b19d8659e4f",
-        "type": "group",
-        "z": "bd9a713db43b09de",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "7dd46668d21aace0",
-            "0b74d38880cb8ee9"
-        ],
-        "x": 228.99999237060547,
-        "y": 799,
-        "w": 864,
-        "h": 192.0000228881836
-    },
-    {
-        "id": "aed83ebf4151ec1a",
-        "type": "group",
-        "z": "bd9a713db43b09de",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "31073ecc377843f9",
-            "b8330defe66f6aa3"
-        ],
-        "x": 229.0000228881836,
-        "y": 579,
-        "w": 1064,
-        "h": 178.00009536743164
-    },
-    {
-        "id": "3caf016ac8271965",
-        "type": "group",
-        "z": "bd9a713db43b09de",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "0f9e065b2a1ee568",
-            "76ae491bff9574fb"
-        ],
-        "x": 928,
-        "y": 359,
-        "w": 424,
-        "h": 188
-    },
-    {
-        "id": "76ae491bff9574fb",
-        "type": "group",
-        "z": "bd9a713db43b09de",
-        "g": "3caf016ac8271965",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "c2152ba291457cce",
-            "522b8eb3157946d5"
-        ],
-        "x": 954,
-        "y": 439,
-        "w": 372,
-        "h": 82
-    },
-    {
-        "id": "0b74d38880cb8ee9",
-        "type": "group",
-        "z": "bd9a713db43b09de",
-        "g": "75698b19d8659e4f",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "4955dce6c18f9e5b",
-            "d339c283f2015798",
-            "4f711e5f4a42e310",
-            "7a35d5762b7a4d7d"
-        ],
-        "x": 254.99999237060547,
-        "y": 883.0000228881836,
-        "w": 812,
-        "h": 82
-    },
-    {
-        "id": "b8330defe66f6aa3",
-        "type": "group",
-        "z": "bd9a713db43b09de",
-        "g": "aed83ebf4151ec1a",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "23799b174a01d07a",
-            "6a29e86704c9e165",
-            "23d70b9dbd57fb85",
-            "b806c285e6472592",
-            "0ea401ce5d47479a"
-        ],
-        "x": 255.0000228881836,
-        "y": 649.0000953674316,
-        "w": 1012,
-        "h": 82
-    },
-    {
-        "id": "074e7db917b28931",
-        "type": "group",
-        "z": "5832111adb5d864a",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "e9e81488b22122cc",
-            "c1271a96537f924d",
-            "efb04ad6fc505ef2",
-            "eaec32c4360766e5",
-            "fdc7a4a4a6b03f12",
-            "6f235f34e60300ca",
-            "1f8914e2e278ba8a",
-            "35100698080e1542",
-            "c32cb047f6e6137c",
-            "04f68ea4901303ac",
-            "bb230b1175753e48",
-            "182cfb17c228be32",
-            "ead47d4c8e0af4af",
-            "ab1dbad7858d8b10"
-        ],
-        "x": 274,
-        "y": 619,
-        "w": 1172,
-        "h": 362
-    },
-    {
-        "id": "6da4dd90a27a16e9",
-        "type": "group",
-        "z": "5832111adb5d864a",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "cbb73d7329134a47",
-            "82ac1a17a42e2cb8",
-            "e306d8452fa22852",
-            "c7e7331502a46689",
-            "b8520ad7fc5426ae",
-            "0d550d52d1de7e9b",
-            "26f80df59d87a164",
-            "4b7e375b6d299c49",
-            "eed821a4ac9c4c90",
-            "21826b8b8ec3e009",
-            "81769752943a69b4",
-            "7dbbbfcfc0b1bdbb",
-            "0e8ce45c0ed55f25",
-            "43ad4c7161f2ef5e",
-            "b7144605290c7e11",
-            "603ee1b333b7ee12"
-        ],
-        "x": 474,
-        "y": 79,
-        "w": 792,
-        "h": 402
+        "id": "7cd6efb85b2670b2",
+        "type": "tab",
+        "label": "SERVIDOR",
+        "disabled": false,
+        "info": "",
+        "env": []
     },
     {
         "id": "86214e87008aec36",
@@ -319,7 +85,7 @@
                 "cols": 12
             }
         ],
-        "order": 2,
+        "order": 3,
         "className": "",
         "visible": true,
         "disabled": false
@@ -462,7 +228,7 @@
                 "cols": "12"
             }
         ],
-        "order": 1,
+        "order": 2,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -475,20 +241,6 @@
         "width": 6,
         "height": 1,
         "order": 2,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "6edb2630b4c3f89e",
-        "type": "ui-group",
-        "name": "Inputs",
-        "page": "",
-        "width": 6,
-        "height": 1,
-        "order": -1,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -510,287 +262,157 @@
         "groupType": "default"
     },
     {
-        "id": "a4b049f6c27715be",
-        "type": "mqtt in",
-        "z": "75aeb316078a8b5d",
-        "name": "",
-        "topic": "prueba/gustavo/insano/#",
-        "qos": "2",
-        "datatype": "auto-detect",
-        "broker": "3892fbae43714834",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 610,
-        "y": 180,
-        "wires": [
-            [
-                "b391f9582504e47a"
-            ]
-        ]
-    },
-    {
-        "id": "b391f9582504e47a",
-        "type": "debug",
-        "z": "75aeb316078a8b5d",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 900,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "febd0a27459dda47",
-        "type": "mqtt in",
-        "z": "75aeb316078a8b5d",
-        "name": "",
-        "topic": "prueba/gustavo/insano/#",
-        "qos": "2",
-        "datatype": "auto-detect",
-        "broker": "c125deb2848e4354",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 630,
-        "y": 340,
-        "wires": [
-            [
-                "8cdca371840f859c"
-            ]
-        ]
-    },
-    {
-        "id": "8cdca371840f859c",
-        "type": "debug",
-        "z": "75aeb316078a8b5d",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 920,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "81e1ef39442e6d68",
-        "type": "mqtt in",
-        "z": "75aeb316078a8b5d",
-        "name": "",
-        "topic": "prueba/gustavo/insano/#",
-        "qos": "2",
-        "datatype": "auto-detect",
-        "broker": "c125deb2848e4354",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 610,
-        "y": 460,
-        "wires": [
-            [
-                "f086d36e28826252"
-            ]
-        ]
-    },
-    {
-        "id": "f086d36e28826252",
-        "type": "debug",
-        "z": "75aeb316078a8b5d",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 900,
-        "y": 460,
-        "wires": []
-    },
-    {
-        "id": "437c126210515c2b",
-        "type": "inject",
-        "z": "75aeb316078a8b5d",
-        "name": "",
-        "props": [
+        "id": "7ccc26941dda8a3e",
+        "type": "ui-page",
+        "name": "Lección2",
+        "ui": "86214e87008aec36",
+        "path": "/page3",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "6da1d918729f0eed",
+        "breakpoints": [
             {
-                "p": "payload"
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
             },
             {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "prueba/gustavo/insano/Gustavo",
-        "payload": "{\"temp\":23,\"hum\":10,\"lat\":1,\"long\":20,\"nombre\":\"Node Hola\"}",
-        "payloadType": "json",
-        "x": 630,
-        "y": 660,
-        "wires": [
-            [
-                "8967145c61e9f657"
-            ]
-        ]
-    },
-    {
-        "id": "8967145c61e9f657",
-        "type": "mqtt out",
-        "z": "75aeb316078a8b5d",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "a98ba2c0141a655a",
-        "x": 850,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "6c4b95d483ce9999",
-        "type": "inject",
-        "z": "75aeb316078a8b5d",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
             },
             {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "prueba/gustavo/insano/1",
-        "payload": "{\"temp\":23,\"hum\":10,\"lat\":1,\"long\":20,\"nombre\":\"Inject 1\"}",
-        "payloadType": "json",
-        "x": 610,
-        "y": 720,
-        "wires": [
-            [
-                "8967145c61e9f657"
-            ]
-        ]
-    },
-    {
-        "id": "f6f694366003b047",
-        "type": "inject",
-        "z": "75aeb316078a8b5d",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
             },
             {
-                "p": "topic",
-                "vt": "str"
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
             }
         ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "prueba/gustavo/insano/2",
-        "payload": "{\"temp\":23,\"hum\":10,\"lat\":1,\"long\":20,\"nombre\":\"Inject 2\"}",
-        "payloadType": "json",
-        "x": 610,
-        "y": 780,
-        "wires": [
-            [
-                "8967145c61e9f657"
-            ]
-        ]
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
     },
     {
-        "id": "4235c04660094094",
-        "type": "inject",
-        "z": "75aeb316078a8b5d",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "prueba/gustavo/insano/3",
-        "payload": "{\"temp\":23,\"hum\":10,\"lat\":1,\"long\":20,\"nombre\":\"Inject 3\"}",
-        "payloadType": "json",
-        "x": 610,
-        "y": 840,
-        "wires": [
-            [
-                "8967145c61e9f657"
-            ]
-        ]
+        "id": "2be759d9a0931c25",
+        "type": "ui-group",
+        "name": "Cliente",
+        "page": "7ccc26941dda8a3e",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
     },
     {
-        "id": "530b7698a49d85c3",
-        "type": "inject",
-        "z": "2ab04c2dd50ec8c8",
+        "id": "908b1c50fc7e257d",
+        "type": "ui-group",
+        "name": "Servidor",
+        "page": "7ccc26941dda8a3e",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "mqtt_broker",
+        "type": "mqtt-broker",
+        "name": "Broker Local",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "109d4bdc1c219d37",
+        "type": "ui-button",
+        "z": "26c946c84c606107",
+        "group": "2be759d9a0931c25",
         "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
+        "label": "Temperatura",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
         "payload": "",
-        "payloadType": "date",
-        "x": 660,
-        "y": 80,
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 530,
+        "y": 180,
         "wires": [
             [
-                "42e6d433752e2ac2"
+                "28fa7a317de58354"
             ]
         ]
     },
     {
-        "id": "2cc5647afcc2bf8b",
+        "id": "28fa7a317de58354",
+        "type": "http request",
+        "z": "26c946c84c606107",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://localhost:1880/API/6toA/Gustavo",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 750,
+        "y": 180,
+        "wires": [
+            [
+                "81df1624b958b58d"
+            ]
+        ]
+    },
+    {
+        "id": "81df1624b958b58d",
         "type": "debug",
-        "z": "2ab04c2dd50ec8c8",
-        "name": "debug 4",
+        "z": "26c946c84c606107",
+        "name": "debug 12",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -799,916 +421,15 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 940,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "42e6d433752e2ac2",
-        "type": "http request",
-        "z": "2ab04c2dd50ec8c8",
-        "name": "",
-        "method": "GET",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "http://127.0.0.1:1880/sensores/71.243434/2.2222",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 730,
-        "y": 160,
-        "wires": [
-            [
-                "2cc5647afcc2bf8b"
-            ]
-        ]
-    },
-    {
-        "id": "4955dce6c18f9e5b",
-        "type": "inject",
-        "z": "bd9a713db43b09de",
-        "g": "0b74d38880cb8ee9",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 370.99999237060547,
-        "y": 924.0000228881836,
-        "wires": [
-            [
-                "d339c283f2015798"
-            ]
-        ]
-    },
-    {
-        "id": "d339c283f2015798",
-        "type": "http request",
-        "z": "bd9a713db43b09de",
-        "g": "0b74d38880cb8ee9",
-        "name": "",
-        "method": "GET",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "http://api.weatherstack.com/current?access_key=03c59a03dbf13437c4eca177515fdaab&query=Machala",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 570.9999923706055,
-        "y": 924.0000228881836,
-        "wires": [
-            [
-                "4f711e5f4a42e310"
-            ]
-        ]
-    },
-    {
-        "id": "4f711e5f4a42e310",
-        "type": "json",
-        "z": "bd9a713db43b09de",
-        "g": "0b74d38880cb8ee9",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 770.9999923706055,
-        "y": 924.0000228881836,
-        "wires": [
-            [
-                "7a35d5762b7a4d7d"
-            ]
-        ]
-    },
-    {
-        "id": "7a35d5762b7a4d7d",
-        "type": "debug",
-        "z": "bd9a713db43b09de",
-        "g": "0b74d38880cb8ee9",
-        "name": "debug 6",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 960.9999923706055,
-        "y": 924.0000228881836,
-        "wires": []
-    },
-    {
-        "id": "b50d6de745ad43c5",
-        "type": "openweathermap",
-        "z": "bd9a713db43b09de",
-        "name": "Clima",
-        "wtype": "current",
-        "lon": "",
-        "lat": "",
-        "city": "quito",
-        "country": "Ecuador",
-        "language": "es",
-        "x": 590,
-        "y": 1300,
-        "wires": [
-            [
-                "268e2db5ca8ffb4b",
-                "6488d8b5bc56d15e",
-                "95330776d244fca6",
-                "cdaffa512e572056"
-            ]
-        ]
-    },
-    {
-        "id": "466c876cbc069908",
-        "type": "inject",
-        "z": "bd9a713db43b09de",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 270,
-        "y": 1300,
-        "wires": [
-            [
-                "b50d6de745ad43c5"
-            ]
-        ]
-    },
-    {
-        "id": "c2152ba291457cce",
-        "type": "openweathermap in",
-        "z": "bd9a713db43b09de",
-        "g": "76ae491bff9574fb",
-        "name": "Clima",
-        "wtype": "current",
-        "lon": "",
-        "lat": "",
-        "city": "Machala",
-        "country": "Ecuador",
-        "language": "es",
-        "x": 1030,
-        "y": 480,
-        "wires": [
-            [
-                "522b8eb3157946d5"
-            ]
-        ]
-    },
-    {
-        "id": "522b8eb3157946d5",
-        "type": "debug",
-        "z": "bd9a713db43b09de",
-        "g": "76ae491bff9574fb",
-        "name": "debug 7",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1220,
-        "y": 480,
-        "wires": []
-    },
-    {
-        "id": "23799b174a01d07a",
-        "type": "inject",
-        "z": "bd9a713db43b09de",
-        "g": "b8330defe66f6aa3",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 371.0000228881836,
-        "y": 690.0000953674316,
-        "wires": [
-            [
-                "6a29e86704c9e165"
-            ]
-        ]
-    },
-    {
-        "id": "6a29e86704c9e165",
-        "type": "change",
-        "z": "bd9a713db43b09de",
-        "g": "b8330defe66f6aa3",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "id",
-                "pt": "msg",
-                "to": "3654533",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "APPID",
-                "pt": "msg",
-                "to": "a75e4a8cd7e7e35459f89153da9e1940",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 581.0000228881836,
-        "y": 690.0000953674316,
-        "wires": [
-            [
-                "0ea401ce5d47479a"
-            ]
-        ]
-    },
-    {
-        "id": "b806c285e6472592",
-        "type": "debug",
-        "z": "bd9a713db43b09de",
-        "g": "b8330defe66f6aa3",
-        "name": "debug 8",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1161.0000228881836,
-        "y": 690.0000953674316,
-        "wires": []
-    },
-    {
-        "id": "0ea401ce5d47479a",
-        "type": "http request",
-        "z": "bd9a713db43b09de",
-        "g": "b8330defe66f6aa3",
-        "name": "",
-        "method": "GET",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "http://api.openweathermap.org/data/2.5/forecast?id={{{id}}}&APPID={{{APPID}}}",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 791.0000228881836,
-        "y": 690.0000953674316,
-        "wires": [
-            [
-                "23d70b9dbd57fb85"
-            ]
-        ]
-    },
-    {
-        "id": "23d70b9dbd57fb85",
-        "type": "json",
-        "z": "bd9a713db43b09de",
-        "g": "b8330defe66f6aa3",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 971.0000228881836,
-        "y": 690.0000953674316,
-        "wires": [
-            [
-                "b806c285e6472592"
-            ]
-        ]
-    },
-    {
-        "id": "7640ba9a0de2c4d5",
-        "type": "comment",
-        "z": "bd9a713db43b09de",
-        "name": "OpenWeather - KEY",
-        "info": "",
-        "x": 430,
-        "y": 1220,
-        "wires": []
-    },
-    {
-        "id": "0f9e065b2a1ee568",
-        "type": "comment",
-        "z": "bd9a713db43b09de",
-        "g": "3caf016ac8271965",
-        "name": "OpenWeather - in",
-        "info": "",
-        "x": 1040,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "31073ecc377843f9",
-        "type": "comment",
-        "z": "bd9a713db43b09de",
-        "g": "aed83ebf4151ec1a",
-        "name": "OpenWeather - URL",
-        "info": "",
-        "x": 350,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "7dd46668d21aace0",
-        "type": "comment",
-        "z": "bd9a713db43b09de",
-        "g": "75698b19d8659e4f",
-        "name": "WeatherStack",
-        "info": "",
-        "x": 330,
-        "y": 840,
-        "wires": []
-    },
-    {
-        "id": "2ea028eba71dcd70",
-        "type": "ui-gauge",
-        "z": "bd9a713db43b09de",
-        "name": "",
-        "group": "2bc14a03d9e6d99a",
-        "order": 5,
-        "value": "payload",
-        "valueType": "msg",
-        "width": 3,
-        "height": 3,
-        "gtype": "gauge-half",
-        "gstyle": "needle",
-        "title": "Humedad",
-        "alwaysShowTitle": false,
-        "floatingTitlePosition": "top-left",
-        "units": "%",
-        "icon": "",
-        "prefix": "",
-        "suffix": "",
-        "segments": [
-            {
-                "from": "0",
-                "color": "#5cd65c",
-                "text": "",
-                "textType": "label"
-            },
-            {
-                "from": "30",
-                "color": "#ffc800",
-                "text": "",
-                "textType": "label"
-            },
-            {
-                "from": "70",
-                "color": "#ea5353",
-                "text": "",
-                "textType": "label"
-            }
-        ],
-        "min": 0,
-        "max": "100",
-        "sizeThickness": 16,
-        "sizeGap": 4,
-        "sizeKeyThickness": 8,
-        "styleRounded": true,
-        "styleGlow": false,
-        "className": "",
-        "x": 1060,
-        "y": 1240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9b1742767824984c",
-        "type": "ui-gauge",
-        "z": "bd9a713db43b09de",
-        "name": "",
-        "group": "2bc14a03d9e6d99a",
-        "order": 4,
-        "value": "payload",
-        "valueType": "msg",
-        "width": 3,
-        "height": 3,
-        "gtype": "gauge-half",
-        "gstyle": "needle",
-        "title": "Temperatura",
-        "alwaysShowTitle": false,
-        "floatingTitlePosition": "top-left",
-        "units": "°C",
-        "icon": "",
-        "prefix": "",
-        "suffix": "",
-        "segments": [
-            {
-                "from": "0",
-                "color": "#5cd65c",
-                "text": "",
-                "textType": "label"
-            },
-            {
-                "from": "30",
-                "color": "#ffc800",
-                "text": "",
-                "textType": "label"
-            },
-            {
-                "from": "70",
-                "color": "#ea5353",
-                "text": "",
-                "textType": "label"
-            }
-        ],
-        "min": 0,
-        "max": "100",
-        "sizeThickness": 16,
-        "sizeGap": 4,
-        "sizeKeyThickness": 8,
-        "styleRounded": true,
-        "styleGlow": false,
-        "className": "",
-        "x": 1070,
-        "y": 1300,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "268e2db5ca8ffb4b",
-        "type": "change",
-        "z": "bd9a713db43b09de",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.humidity",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 860,
-        "y": 1240,
-        "wires": [
-            [
-                "2ea028eba71dcd70"
-            ]
-        ]
-    },
-    {
-        "id": "6488d8b5bc56d15e",
-        "type": "change",
-        "z": "bd9a713db43b09de",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.temp_maxc",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 860,
-        "y": 1300,
-        "wires": [
-            [
-                "9b1742767824984c"
-            ]
-        ]
-    },
-    {
-        "id": "95330776d244fca6",
-        "type": "change",
-        "z": "bd9a713db43b09de",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.winddirection",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 860,
-        "y": 1360,
-        "wires": [
-            [
-                "a8d9af41a2832293"
-            ]
-        ]
-    },
-    {
-        "id": "9b2fdc43f9ae9536",
-        "type": "ui-form",
-        "z": "bd9a713db43b09de",
-        "name": "",
-        "group": "2bc14a03d9e6d99a",
-        "label": "",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "options": [
-            {
-                "label": "Location.City",
-                "key": "Location.City",
-                "type": "text",
-                "required": true,
-                "rows": null
-            }
-        ],
-        "formValue": {
-            "Location.City": ""
-        },
-        "payload": "",
-        "submit": "submit",
-        "cancel": "clear",
-        "resetOnSubmit": true,
-        "topic": "topic",
-        "topicType": "msg",
-        "splitLayout": true,
-        "className": "",
-        "passthru": false,
-        "dropdownOptions": [],
-        "x": 390,
-        "y": 1460,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a8d9af41a2832293",
-        "type": "ui-text",
-        "z": "bd9a713db43b09de",
-        "group": "2bc14a03d9e6d99a",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Clima:",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "value": "payload",
-        "valueType": "msg",
-        "x": 1050,
-        "y": 1360,
-        "wires": []
-    },
-    {
-        "id": "cdaffa512e572056",
-        "type": "change",
-        "z": "bd9a713db43b09de",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.sunset",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 860,
-        "y": 1420,
-        "wires": [
-            [
-                "3120a1123692d3e2"
-            ]
-        ]
-    },
-    {
-        "id": "3120a1123692d3e2",
-        "type": "ui-text",
-        "z": "bd9a713db43b09de",
-        "group": "2bc14a03d9e6d99a",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "Dia",
-        "label": "text",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "value": "payload",
-        "valueType": "msg",
-        "x": 1050,
-        "y": 1420,
-        "wires": []
-    },
-    {
-        "id": "cbb73d7329134a47",
-        "type": "ui-gauge",
-        "z": "5832111adb5d864a",
-        "g": "6da4dd90a27a16e9",
-        "name": "",
-        "group": "1bcacd316ef34332",
-        "order": 4,
-        "value": "payload",
-        "valueType": "msg",
-        "width": 3,
-        "height": 3,
-        "gtype": "gauge-half",
-        "gstyle": "needle",
-        "title": "Sensor de Humedad",
-        "alwaysShowTitle": false,
-        "floatingTitlePosition": "top-left",
-        "units": "%",
-        "icon": "",
-        "prefix": "",
-        "suffix": "",
-        "segments": [
-            {
-                "from": "0",
-                "color": "#5cd65c",
-                "text": "",
-                "textType": "label"
-            },
-            {
-                "from": "30",
-                "color": "#ffc800",
-                "text": "",
-                "textType": "label"
-            },
-            {
-                "from": "70",
-                "color": "#ea5353",
-                "text": "",
-                "textType": "label"
-            }
-        ],
-        "min": 0,
-        "max": "100",
-        "sizeThickness": 16,
-        "sizeGap": 4,
-        "sizeKeyThickness": 8,
-        "styleRounded": true,
-        "styleGlow": false,
-        "className": "",
-        "x": 1120,
         "y": 180,
-        "wires": [
-            []
-        ]
+        "wires": []
     },
     {
-        "id": "82ac1a17a42e2cb8",
-        "type": "ui-gauge",
-        "z": "5832111adb5d864a",
-        "g": "6da4dd90a27a16e9",
-        "name": "",
-        "group": "1bcacd316ef34332",
-        "order": 3,
-        "value": "payload",
-        "valueType": "msg",
-        "width": 3,
-        "height": 3,
-        "gtype": "gauge-half",
-        "gstyle": "needle",
-        "title": "Sensor de Temperatura",
-        "alwaysShowTitle": false,
-        "floatingTitlePosition": "top-left",
-        "units": "°C",
-        "icon": "",
-        "prefix": "",
-        "suffix": "",
-        "segments": [
-            {
-                "from": "0",
-                "color": "#5cd65c",
-                "text": "",
-                "textType": "label"
-            },
-            {
-                "from": "30",
-                "color": "#ffc800",
-                "text": "",
-                "textType": "label"
-            },
-            {
-                "from": "70",
-                "color": "#ea5353",
-                "text": "",
-                "textType": "label"
-            }
-        ],
-        "min": 0,
-        "max": "100",
-        "sizeThickness": 16,
-        "sizeGap": 4,
-        "sizeKeyThickness": 8,
-        "styleRounded": true,
-        "styleGlow": false,
-        "className": "",
-        "x": 1130,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e9e81488b22122cc",
-        "type": "inject",
-        "z": "5832111adb5d864a",
-        "g": "074e7db917b28931",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 390,
-        "y": 740,
-        "wires": [
-            [
-                "c1271a96537f924d"
-            ]
-        ]
-    },
-    {
-        "id": "c1271a96537f924d",
-        "type": "random",
-        "z": "5832111adb5d864a",
-        "g": "074e7db917b28931",
-        "name": "",
-        "low": 1,
-        "high": 10,
-        "inte": "true",
-        "property": "payload",
-        "x": 580,
-        "y": 740,
-        "wires": [
-            [
-                "efb04ad6fc505ef2",
-                "eaec32c4360766e5"
-            ]
-        ]
-    },
-    {
-        "id": "efb04ad6fc505ef2",
-        "type": "change",
-        "z": "5832111adb5d864a",
-        "g": "074e7db917b28931",
-        "name": "Temperatura",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "tem",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "(payload + 2)*6",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 870,
-        "y": 660,
-        "wires": [
-            [
-                "6f235f34e60300ca"
-            ]
-        ]
-    },
-    {
-        "id": "eaec32c4360766e5",
-        "type": "change",
-        "z": "5832111adb5d864a",
-        "g": "074e7db917b28931",
-        "name": "Humedad",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "hum",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "(payload + 3) *4",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 860,
-        "y": 760,
-        "wires": [
-            [
-                "6f235f34e60300ca"
-            ]
-        ]
-    },
-    {
-        "id": "fdc7a4a4a6b03f12",
+        "id": "99b383ab86cd066e",
         "type": "mqtt out",
-        "z": "5832111adb5d864a",
-        "g": "074e7db917b28931",
+        "z": "26c946c84c606107",
         "name": "",
-        "topic": "leccion/gustavo/pc",
+        "topic": "",
         "qos": "",
         "retain": "",
         "respTopic": "",
@@ -1717,52 +438,29 @@
         "correl": "",
         "expiry": "",
         "broker": "c125deb2848e4354",
-        "x": 1330,
-        "y": 720,
+        "x": 1370,
+        "y": 420,
         "wires": []
     },
     {
-        "id": "e306d8452fa22852",
-        "type": "mqtt in",
-        "z": "5832111adb5d864a",
-        "g": "6da4dd90a27a16e9",
-        "name": "",
-        "topic": "leccion/gustavo/#",
-        "qos": "2",
-        "datatype": "auto-detect",
-        "broker": "c125deb2848e4354",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 580,
-        "y": 200,
-        "wires": [
-            [
-                "c7e7331502a46689",
-                "b8520ad7fc5426ae",
-                "0d550d52d1de7e9b",
-                "26f80df59d87a164",
-                "eed821a4ac9c4c90",
-                "81769752943a69b4",
-                "7dbbbfcfc0b1bdbb",
-                "0e8ce45c0ed55f25"
-            ]
-        ]
-    },
-    {
-        "id": "c7e7331502a46689",
+        "id": "42dfced114ea1505",
         "type": "change",
-        "z": "5832111adb5d864a",
-        "g": "6da4dd90a27a16e9",
+        "z": "26c946c84c606107",
         "name": "",
         "rules": [
             {
                 "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "prueba/gustavo/nombreclima/2",
+                "tot": "str"
+            },
+            {
+                "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "payload.hum",
-                "tot": "jsonata"
+                "to": "payload",
+                "tot": "msg"
             }
         ],
         "action": "",
@@ -1770,19 +468,84 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 840,
-        "y": 180,
+        "x": 1200,
+        "y": 420,
         "wires": [
             [
-                "cbb73d7329134a47"
+                "99b383ab86cd066e"
             ]
         ]
     },
     {
-        "id": "6f235f34e60300ca",
+        "id": "3f91e98b09c58816",
+        "type": "ui-text-input",
+        "z": "26c946c84c606107",
+        "group": "908b1c50fc7e257d",
+        "name": "",
+        "label": "Pais",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "text",
+        "tooltip": "",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 610,
+        "y": 360,
+        "wires": [
+            [
+                "c59356eae0ad0ad7"
+            ]
+        ]
+    },
+    {
+        "id": "6582b04b59997f97",
+        "type": "ui-text-input",
+        "z": "26c946c84c606107",
+        "group": "908b1c50fc7e257d",
+        "name": "",
+        "label": "Ciudad",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "text",
+        "tooltip": "",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 620,
+        "y": 460,
+        "wires": [
+            [
+                "246346cdb9c049f0"
+            ]
+        ]
+    },
+    {
+        "id": "7d1babf4af499f71",
         "type": "join",
-        "z": "5832111adb5d864a",
-        "g": "074e7db917b28931",
+        "z": "26c946c84c606107",
         "name": "",
         "mode": "custom",
         "build": "object",
@@ -1791,37 +554,42 @@
         "key": "topic",
         "joiner": "\\n",
         "joinerType": "str",
-        "useparts": false,
-        "accumulate": true,
+        "useparts": true,
+        "accumulate": false,
         "timeout": "",
-        "count": "6",
+        "count": "3",
         "reduceRight": false,
         "reduceExp": "",
         "reduceInit": "",
-        "reduceInitType": "",
+        "reduceInitType": "num",
         "reduceFixup": "",
-        "x": 1070,
-        "y": 720,
+        "x": 1030,
+        "y": 420,
         "wires": [
             [
-                "fdc7a4a4a6b03f12",
-                "35100698080e1542"
+                "42dfced114ea1505"
             ]
         ]
     },
     {
-        "id": "b8520ad7fc5426ae",
+        "id": "c59356eae0ad0ad7",
         "type": "change",
-        "z": "5832111adb5d864a",
-        "g": "6da4dd90a27a16e9",
+        "z": "26c946c84c606107",
         "name": "",
         "rules": [
             {
                 "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Pais",
+                "tot": "str"
+            },
+            {
+                "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "payload.tem",
-                "tot": "jsonata"
+                "to": "payload",
+                "tot": "msg"
             }
         ],
         "action": "",
@@ -1829,86 +597,149 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 840,
-        "y": 240,
-        "wires": [
-            [
-                "82ac1a17a42e2cb8"
-            ]
-        ]
-    },
-    {
-        "id": "0d550d52d1de7e9b",
-        "type": "debug",
-        "z": "5832111adb5d864a",
-        "g": "6da4dd90a27a16e9",
-        "name": "debug 5",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
         "x": 800,
-        "y": 120,
-        "wires": []
-    },
-    {
-        "id": "1f8914e2e278ba8a",
-        "type": "ui-form",
-        "z": "5832111adb5d864a",
-        "g": "074e7db917b28931",
-        "name": "Inputs",
-        "group": "7c2b33bb6ebca648",
-        "label": "",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "options": [
-            {
-                "label": "Nombre",
-                "key": "nombre",
-                "type": "text",
-                "required": true,
-                "rows": null
-            },
-            {
-                "label": "Dirección",
-                "key": "ubicacion",
-                "type": "text",
-                "required": true,
-                "rows": null
-            }
-        ],
-        "formValue": {
-            "nombre": "",
-            "ubicacion": ""
-        },
-        "payload": "",
-        "submit": "submit",
-        "cancel": "clear",
-        "resetOnSubmit": true,
-        "topic": "topic",
-        "topicType": "msg",
-        "splitLayout": "",
-        "className": "",
-        "passthru": false,
-        "dropdownOptions": [],
-        "x": 850,
-        "y": 820,
+        "y": 360,
         "wires": [
             [
-                "6f235f34e60300ca"
+                "7d1babf4af499f71"
             ]
         ]
     },
     {
-        "id": "35100698080e1542",
+        "id": "246346cdb9c049f0",
+        "type": "change",
+        "z": "26c946c84c606107",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Ciudad",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 460,
+        "wires": [
+            [
+                "7d1babf4af499f71"
+            ]
+        ]
+    },
+    {
+        "id": "66f148b9d741b468",
+        "type": "ui-button",
+        "z": "26c946c84c606107",
+        "group": "2be759d9a0931c25",
+        "name": "",
+        "label": "Pais y Ciudad",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 360,
+        "y": 460,
+        "wires": [
+            [
+                "3f91e98b09c58816",
+                "6582b04b59997f97",
+                "1d5d810eb9d3b96a"
+            ]
+        ]
+    },
+    {
+        "id": "1d5d810eb9d3b96a",
+        "type": "change",
+        "z": "26c946c84c606107",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Activo",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 540,
+        "wires": [
+            [
+                "7d1babf4af499f71"
+            ]
+        ]
+    },
+    {
+        "id": "36f567dc2fc276ff",
+        "type": "mqtt in",
+        "z": "7cd6efb85b2670b2",
+        "name": "",
+        "topic": "prueba/gustavo/nombreclima/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "c125deb2848e4354",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 670,
+        "y": 380,
+        "wires": [
+            [
+                "c31a87cea68645a6"
+            ]
+        ]
+    },
+    {
+        "id": "c31a87cea68645a6",
         "type": "debug",
-        "z": "5832111adb5d864a",
-        "g": "074e7db917b28931",
-        "name": "debug 9",
+        "z": "7cd6efb85b2670b2",
+        "name": "debug 10",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -1916,507 +747,54 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1180,
-        "y": 800,
+        "x": 1020,
+        "y": 380,
         "wires": []
     },
     {
-        "id": "26f80df59d87a164",
-        "type": "change",
-        "z": "5832111adb5d864a",
-        "g": "6da4dd90a27a16e9",
+        "id": "c62a94d08d903e19",
+        "type": "http in",
+        "z": "7cd6efb85b2670b2",
         "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.topic.nombre",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 840,
-        "y": 280,
+        "url": "/API/6toA/Gustavo",
+        "method": "post",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 670,
+        "y": 160,
         "wires": [
             [
-                "4b7e375b6d299c49"
+                "3b696d7ff4607cf4"
             ]
         ]
     },
     {
-        "id": "4b7e375b6d299c49",
-        "type": "ui-text",
-        "z": "5832111adb5d864a",
-        "g": "6da4dd90a27a16e9",
-        "group": "1bcacd316ef34332",
-        "order": 5,
-        "width": 0,
-        "height": 0,
+        "id": "3b696d7ff4607cf4",
+        "type": "random",
+        "z": "7cd6efb85b2670b2",
         "name": "",
-        "label": "Nombre",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "value": "payload",
-        "valueType": "msg",
-        "x": 1080,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "eed821a4ac9c4c90",
-        "type": "change",
-        "z": "5832111adb5d864a",
-        "g": "6da4dd90a27a16e9",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.topic.ubicacion",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 840,
-        "y": 320,
-        "wires": [
-            [
-                "21826b8b8ec3e009"
-            ]
-        ]
-    },
-    {
-        "id": "21826b8b8ec3e009",
-        "type": "ui-text",
-        "z": "5832111adb5d864a",
-        "g": "6da4dd90a27a16e9",
-        "group": "1bcacd316ef34332",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Direccion",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "value": "payload",
-        "valueType": "msg",
-        "x": 1080,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "c32cb047f6e6137c",
-        "type": "ui-switch",
-        "z": "5832111adb5d864a",
-        "g": "074e7db917b28931",
-        "name": "Riego",
-        "label": "Riego",
-        "group": "7c2b33bb6ebca648",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "decouple": false,
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "className": "",
-        "layout": "row-spread",
-        "clickableArea": "switch",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 690,
-        "y": 860,
-        "wires": [
-            [
-                "182cfb17c228be32"
-            ]
-        ]
-    },
-    {
-        "id": "04f68ea4901303ac",
-        "type": "ui-switch",
-        "z": "5832111adb5d864a",
-        "g": "074e7db917b28931",
-        "name": "Temperatura",
-        "label": "Temperatura",
-        "group": "7c2b33bb6ebca648",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "decouple": false,
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "className": "",
-        "layout": "row-spread",
-        "clickableArea": "switch",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 710,
-        "y": 900,
-        "wires": [
-            [
-                "ead47d4c8e0af4af"
-            ]
-        ]
-    },
-    {
-        "id": "bb230b1175753e48",
-        "type": "ui-switch",
-        "z": "5832111adb5d864a",
-        "g": "074e7db917b28931",
-        "name": "Humedad",
-        "label": "Humedad",
-        "group": "7c2b33bb6ebca648",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "decouple": false,
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "className": "",
-        "layout": "row-spread",
-        "clickableArea": "switch",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 700,
-        "y": 940,
-        "wires": [
-            [
-                "ab1dbad7858d8b10"
-            ]
-        ]
-    },
-    {
-        "id": "182cfb17c228be32",
-        "type": "change",
-        "z": "5832111adb5d864a",
-        "g": "074e7db917b28931",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "riego",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
         "x": 880,
-        "y": 860,
+        "y": 160,
         "wires": [
             [
-                "6f235f34e60300ca"
+                "c3cdd74d007b7a0e"
             ]
         ]
     },
     {
-        "id": "ead47d4c8e0af4af",
-        "type": "change",
-        "z": "5832111adb5d864a",
-        "g": "074e7db917b28931",
+        "id": "c3cdd74d007b7a0e",
+        "type": "http response",
+        "z": "7cd6efb85b2670b2",
         "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "temperatura",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 880,
-        "y": 900,
-        "wires": [
-            [
-                "6f235f34e60300ca"
-            ]
-        ]
-    },
-    {
-        "id": "ab1dbad7858d8b10",
-        "type": "change",
-        "z": "5832111adb5d864a",
-        "g": "074e7db917b28931",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "humedad",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 880,
-        "y": 940,
-        "wires": [
-            [
-                "6f235f34e60300ca"
-            ]
-        ]
-    },
-    {
-        "id": "81769752943a69b4",
-        "type": "change",
-        "z": "5832111adb5d864a",
-        "g": "6da4dd90a27a16e9",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.riego",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 840,
-        "y": 360,
-        "wires": [
-            [
-                "43ad4c7161f2ef5e"
-            ]
-        ]
-    },
-    {
-        "id": "7dbbbfcfc0b1bdbb",
-        "type": "change",
-        "z": "5832111adb5d864a",
-        "g": "6da4dd90a27a16e9",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.temperatura",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 840,
-        "y": 400,
-        "wires": [
-            [
-                "b7144605290c7e11"
-            ]
-        ]
-    },
-    {
-        "id": "0e8ce45c0ed55f25",
-        "type": "change",
-        "z": "5832111adb5d864a",
-        "g": "6da4dd90a27a16e9",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.humedad",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 840,
-        "y": 440,
-        "wires": [
-            [
-                "603ee1b333b7ee12"
-            ]
-        ]
-    },
-    {
-        "id": "43ad4c7161f2ef5e",
-        "type": "ui-led",
-        "z": "5832111adb5d864a",
-        "g": "6da4dd90a27a16e9",
-        "name": "",
-        "group": "1bcacd316ef34332",
-        "order": 7,
-        "width": 0,
-        "height": 0,
-        "label": "Riego",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "states": [
-            {
-                "value": "false",
-                "valueType": "bool",
-                "color": "#ff0000"
-            },
-            {
-                "value": "true",
-                "valueType": "bool",
-                "color": "#00ff00"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showBorder": true,
-        "showGlow": true,
-        "x": 1070,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "b7144605290c7e11",
-        "type": "ui-led",
-        "z": "5832111adb5d864a",
-        "g": "6da4dd90a27a16e9",
-        "name": "",
-        "group": "1bcacd316ef34332",
-        "order": 6,
-        "width": 0,
-        "height": 0,
-        "label": "Temperatura",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "states": [
-            {
-                "value": "false",
-                "valueType": "bool",
-                "color": "#ff0000"
-            },
-            {
-                "value": "true",
-                "valueType": "bool",
-                "color": "#00ff00"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showBorder": true,
-        "showGlow": true,
-        "x": 1070,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "603ee1b333b7ee12",
-        "type": "ui-led",
-        "z": "5832111adb5d864a",
-        "g": "6da4dd90a27a16e9",
-        "name": "",
-        "group": "1bcacd316ef34332",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "label": "Humedad",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "states": [
-            {
-                "value": "false",
-                "valueType": "bool",
-                "color": "#ff0000"
-            },
-            {
-                "value": "true",
-                "valueType": "bool",
-                "color": "#00ff00"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showBorder": true,
-        "showGlow": true,
-        "x": 1070,
-        "y": 440,
+        "statusCode": "",
+        "headers": {},
+        "x": 1030,
+        "y": 160,
         "wires": []
     }
 ]
